@@ -1,6 +1,6 @@
 ---
-title: "Welcome to my website!"
-description: "I Rule!"
+title: "Greta Breskin MS RD LDN CSP"
+description: "Registered Dietitian and Sleep Consultant"
 ---
 
 <!---{{< lead >}}
