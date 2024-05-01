@@ -1,0 +1,25 @@
+# config/_default/menus.en.toml
+
+[[main]]
+  name = "About me"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 20
+
+[[main]]
+  name = "Resources"
+  pageRef = "resources"
+  weight = 30
+  
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
+
+# [[footer]]
+#   name = "Privacy"
+#   pageRef = "privacy"

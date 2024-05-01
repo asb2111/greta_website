@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Congo</title>
+    <link>/de/tags/</link>
+    <description>Recent content in Tags on Congo</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <copyright>&amp;copy; 2023 Congo contributors</copyright>
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beispiele</title>
+      <link>/de/tags/beispiele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/beispiele/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Icons</title>
+      <link>/de/tags/icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/icons/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>/de/tags/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>/de/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>/de/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>/de/tags/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gist</title>
+      <link>/de/tags/gist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/gist/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privatsphäre</title>
+      <link>/de/tags/privatsph%C3%A4re/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/privatsph%C3%A4re/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twitter</title>
+      <link>/de/tags/twitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/twitter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vimeo</title>
+      <link>/de/tags/vimeo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/vimeo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YouTube</title>
+      <link>/de/tags/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/youtube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KaTeX</title>
+      <link>/de/tags/katex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/katex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematik</title>
+      <link>/de/tags/mathematik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/mathematik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chart</title>
+      <link>/de/tags/chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/chart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagramm</title>
+      <link>/de/tags/diagramm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/diagramm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph</title>
+      <link>/de/tags/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/graph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mermaid</title>
+      <link>/de/tags/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/mermaid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji</title>
+      <link>/de/tags/emoji/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/de/tags/emoji/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample on Congo</title>
+    <link>/es/tags/sample/</link>
+    <description>Recent content in Sample on Congo</description>
+    <generator>Hugo</generator>
+    <language>es-MX</language>
+    <copyright>&amp;copy; 2023 Congo contributors</copyright>
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/es/tags/sample/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iconos</title>
+      <link>/es/samples/icons/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/es/samples/icons/</guid>
+      <description>Congo tiene soporte integrado para varios íconos de FontAwesome 6.</description>
+    </item>
+    <item>
+      <title>Usuarios</title>
+      <link>/es/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/es/users/</guid>
+      <description>Sitios web reales que se han creado con Congo.</description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>/es/samples/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/es/samples/markdown/</guid>
+      <description>&lt;p&gt;Este artículo es la sintaxis de Markdown que se puede usar en Congo. También muestra cómo se decoran algunos elementos básicos de HTML.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contenido enriquecido</title>
+      <link>/es/samples/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/es/samples/rich-content/</guid>
+      <description>Este es un &lt;em&gt;ejemplo&lt;/em&gt; de un resumen de contenido &lt;strong&gt;enriquecido&lt;/strong&gt;.</description>
+    </item>
+    <item>
+      <title>Notación matemática</title>
+      <link>/es/samples/mathematical-notation/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/es/samples/mathematical-notation/</guid>
+      <description>&lt;p&gt;Una breve muestra de notación matemática en Congo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diagramas y diagramas de flujo</title>
+      <link>/es/samples/diagrams-flowcharts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/es/samples/diagrams-flowcharts/</guid>
+      <description>Es fácil agregar diagramas y diagramas de flujo a los artículos usando Mermaid.</description>
+    </item>
+    <item>
+      <title>Gráficos</title>
+      <link>/es/samples/charts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/es/samples/charts/</guid>
+      <description>Congo incluye Chart.js para mostrar potentes gráficos y visualizaciones de datos.</description>
+    </item>
+    <item>
+      <title>Emoji :parachute:</title>
+      <link>/es/samples/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/es/samples/emoji/</guid>
+      <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
+    </item>
+  </channel>
+</rss>

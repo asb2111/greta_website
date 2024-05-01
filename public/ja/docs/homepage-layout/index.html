@@ -1,0 +1,754 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="ja"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>ホームページレイアウト &middot; Congo</title>
+    <meta name="title" content="ホームページレイアウト &middot; Congo" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.74ad8406faea02f3e186ba5126249aaeed9073629e04b05037b903396b188724.js"
+    integrity="sha256-dK2EBvrqAvPhhrpRJiSaru2Qc2KeBLBQN7kDOWsYhyQ="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.1f8d3e2aedcc88b7182be3639573fa2d6712d6293d1e5388a1b74d64a8dd3520.css"
+    integrity="sha256-H40&#43;Ku3MiLcYK&#43;NjlXP6LWcS1ik9HlOIobdNZKjdNSA="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      Congoにおけるホームページレイアウトの設定について
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="/ja/docs/homepage-layout/" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="/ja/docs/homepage-layout/">
+  <meta property="og:site_name" content="Congo">
+  <meta property="og:title" content="ホームページレイアウト">
+  <meta property="og:description" content="Congoにおけるホームページレイアウトの設定について">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2020-08-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-08-13T00:00:00+00:00">
+    <meta property="article:tag" content="Homepage">
+    <meta property="article:tag" content="Layouts">
+    <meta property="article:tag" content="Docs">
+
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ホームページレイアウト">
+<meta name="twitter:description" content="Congoにおけるホームページレイアウトの設定について">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "ドキュメント",
+    "name": "ホームページレイアウト",
+    "headline": "ホームページレイアウト",
+    "description": "Congoにおけるホームページレイアウトの設定について",
+    "abstract": "Congoは、組み込みテンプレートと独自のテンプレートを提供する機能によって、柔軟なホームページレイアウトを提供します。",
+    "inLanguage": "ja",
+    "url" : "\/ja\/docs\/homepage-layout\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Congo"
+    },
+    "copyrightYear": "2020",
+    "dateCreated": "2020-08-13T00:00:00\u002b00:00",
+    "datePublished": "2020-08-13T00:00:00\u002b00:00",
+    
+    "dateModified": "2020-08-13T00:00:00\u002b00:00",
+    
+    "keywords": ["homepage","layouts","docs"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "68"
+  }
+  </script>
+
+
+  
+  <meta name="author" content="Congo" />
+  
+    
+      <link href="https://twitter.com/" rel="me" />
+    
+      <link href="https://facebook.com/" rel="me" />
+    
+      <link href="https://linkedin.com/" rel="me" />
+    
+      <link href="https://youtube.com/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >メインコンテンツへスキップ</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/ja/"
+    >Congo</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/ja/docs/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >ドキュメント</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/ja/samples/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >サンプル</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/ja/users/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >利用例</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://github.com/jpanther/congo"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span></a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+  
+    
+    
+      <div class="group relative">
+        <button
+          class="group-dark:hover:text-primary-400 flex w-full items-center justify-end transition-colors group-hover:text-primary-600"
+        >
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <path fill="currentColor" d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
+  <path fill="currentColor" d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"/>
+</svg>
+</span><span class="text-sm">JA</span
+          ><span class="text-[0.6rem]"
+            ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+</span></span
+          >
+        </button>
+        
+          <div class="invisible w-full bg-transparent group-hover:visible"></div>
+        
+        <div
+          class=" invisible absolute z-50 flex flex-col whitespace-nowrap rounded border border-neutral-300 bg-neutral text-start text-base shadow group-hover:visible ltr:right-0 rtl:left-0 dark:border-neutral-600 dark:bg-neutral-800"
+        >
+          
+          
+          
+            
+            
+              
+                
+                <div class="flex flex-grow">
+                  
+                    <a
+                      href="/docs/homepage-layout/"
+                      class="w-full py-1 pe-10 ps-2 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                      >English</a
+                    >
+                  
+                </div>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+            
+            
+              
+            
+              
+            
+              
+                
+                <div class="flex flex-grow">
+                  
+                    <a
+                      href="/ja/docs/homepage-layout/"
+                      class="flex w-full items-center justify-between bg-primary-100 px-2 py-1 dark:bg-primary-900"
+                      >日本語<span
+                        class="ms-2 w-6 text-primary-600 dark:text-primary-400"
+                        ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/></svg>
+</span></span
+                      ></a
+                    >
+                  
+                </div>
+              
+            
+              
+            
+              
+            
+          
+            
+            
+              
+            
+              
+            
+              
+            
+              
+                
+                <div class="flex flex-grow">
+                  
+                    <a
+                      href="/zh-cn/docs/homepage-layout/"
+                      class="w-full py-1 pe-10 ps-2 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                      >简体中文</a
+                    >
+                  
+                </div>
+              
+            
+              
+            
+          
+        </div>
+      </div>
+    
+  
+
+
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        ホームページレイアウト
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <span title="読むのに必要な時間">1 分</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>Congoは柔軟なホームページレイアウトを提供します。2つのメインテンプレートから選択でき、追加設定でデザインを調整できます。また、独自のテンプレートを用意して、ホームページの内容を完全にコントロールすることもできます。</p>
+<p>ホームページのレイアウトは <code>params.toml</code> 設定ファイルの <code>homepage.layout</code> 設定によって制御されます。さらに、すべてのレイアウトには<a href="#%e6%9c%80%e8%bf%91%e3%81%ae%e8%a8%98%e4%ba%8b">最近の記事</a>を表示するオプションがあります。</p>
+<h2 id="ページレイアウト" class="relative group">ページレイアウト <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%83%9a%e3%83%bc%e3%82%b8%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88" aria-label="アンカー">#</a></span></h2><p>デフォルトのレイアウトはページレイアウトです。これはシンプルにMarkdownコンテンツを表示します。静的なウェブサイトには最適で、多くの柔軟性を提供します。</p>
+<p>
+
+
+
+
+
+<figure>
+    
+    
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_330x0_resize_q75_h2_box.webp 330w,/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_660x0_resize_q75_h2_box.webp 660w
+            
+              ,/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_1024x0_resize_q75_h2_box.webp 1024w
+            
+            
+              ,/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_1320x0_resize_q75_h2_box.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="2048"
+        height="1536"
+        class="mx-auto my-0 rounded-md"
+        alt="Screenshot of homepage layout"
+        loading="lazy" decoding="async"
+        
+          src="/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_660x0_resize_q75_box.jpg"
+          srcset="/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_330x0_resize_q75_box.jpg 330w,/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_660x0_resize_q75_box.jpg 660w
+          
+            ,/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_1024x0_resize_q75_box.jpg 1024w
+          
+          
+            ,/docs/homepage-layout/home-page_hu9ebf2dc0eb5e596beb284e744e4eca5b_246440_1320x0_resize_q75_box.jpg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+</figure>
+</p>
+<p>ページレイアウトを有効にするには、 <code>params.toml</code> 設定ファイルで <code>homepage.layout = &quot;page&quot;</code> を設定します。</p>
+<h2 id="プロフィールレイアウト" class="relative group">プロフィールレイアウト <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%83%97%e3%83%ad%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88" aria-label="アンカー">#</a></span></h2><p>プロフィールレイアウトは、個人のウェブサイトやブログに最適です。画像とソーシャル・プロフィールへのリンクを提供することで、著者の詳細を前面に押し出します。</p>
+<p>
+
+
+
+
+
+<figure>
+    
+    
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_330x0_resize_q75_h2_box.webp 330w,/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_660x0_resize_q75_h2_box.webp 660w
+            
+              ,/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_1024x0_resize_q75_h2_box.webp 1024w
+            
+            
+              ,/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_1320x0_resize_q75_h2_box.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="2048"
+        height="1536"
+        class="mx-auto my-0 rounded-md"
+        alt="Screenshot of profile layout"
+        loading="lazy" decoding="async"
+        
+          src="/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_660x0_resize_q75_box.jpg"
+          srcset="/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_330x0_resize_q75_box.jpg 330w,/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_660x0_resize_q75_box.jpg 660w
+          
+            ,/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_1024x0_resize_q75_box.jpg 1024w
+          
+          
+            ,/docs/homepage-layout/home-profile_hueedbd6540c5e7a1ab659695612c95805_79548_1320x0_resize_q75_box.jpg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+</figure>
+</p>
+<p>著者情報は <code>languages</code> 設定ファイルで提供されます。パラメーターの詳細については、<a href="/ja/docs/getting-started/">はじめに</a>と<a href="/ja/docs/configuration/#言語と国際化">言語と国際化</a>セクションを参照してください。</p>
+<p>さらに、ホームページのコンテンツで提供されるすべてのMarkdownコンテンツは、著者プロフィールの下に配置されます。これにより、ショートコードを使用した著者の略歴やその他のカスタムコンテンツを表示するための柔軟性が増します。</p>
+<p>プロフィールレイアウトを有効にするには、 <code>params.toml</code> 設定ファイルで <code>homepage.layout = &quot;profile&quot;</code> を設定します。</p>
+<h2 id="カスタムレイアウト" class="relative group">カスタムレイアウト <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88" aria-label="アンカー">#</a></span></h2><p>組み込みのホームページレイアウトがあなたのニーズに十分でない場合は、独自のカスタムレイアウトを提供するオプションがあります。これにより、ページの内容を完全にコントロールすることができ、白紙の状態から作成することができます。</p>
+<p>カスタムレイアウトを有効にするには、 <code>params.toml</code> 設定ファイルで <code>homepage.layout = &quot;custom&quot;</code> を設定します。</p>
+<p>設定値が設定された状態で、新しい <code>custom.html</code> ファイルを作成し、 <code>layouts/partials/home/custom.html</code> に配置してください。これで、 <code>custom.html</code> ファイルにあるものは何でも、サイトのホームページのコンテンツエリアに配置されるようになります。レイアウトの定義には、HTML、Tailwind、Hugoのテンプレート関数など、お好きなものをお使いください。</p>
+<p>カスタムレイアウトに<a href="#%e6%9c%80%e8%bf%91%e3%81%ae%e8%a8%98%e4%ba%8b">最近の記事</a>を含めるには、 <code>recent-articles.html</code> パーシャルを使います。</p>
+<p>例として、このサイトの<a href="/ja/">ホームページ</a>では、カスタムレイアウトを使ってページとプロフィールのレイアウトを切り替えられるようにしています。<a href="https://github.com/jpanther/congo/blob/dev/exampleSite/layouts/partials/home/custom.html" target="_blank" rel="noreferrer">GitHub repo</a>を訪問して、どのように動作するか見てみましょう。</p>
+<h2 id="最近の記事" class="relative group">最近の記事 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9c%80%e8%bf%91%e3%81%ae%e8%a8%98%e4%ba%8b" aria-label="アンカー">#</a></span></h2><p>すべてのホームページレイアウトには、メインページコンテンツの下に最近の記事を表示するオプションがあります。これを有効にするには、 <code>params.toml</code> 設定ファイルの <code>homepage.showRecent</code> 設定を <code>true</code> にするだけです。</p>
+<p>
+
+
+
+
+
+<figure>
+    
+    
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_330x0_resize_q75_h2_box.webp 330w,/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_660x0_resize_q75_h2_box.webp 660w
+            
+              ,/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_1024x0_resize_q75_h2_box.webp 1024w
+            
+            
+              ,/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_1320x0_resize_q75_h2_box.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="2018"
+        height="1536"
+        class="mx-auto my-0 rounded-md"
+        alt="Profile layout with recent articles"
+        loading="lazy" decoding="async"
+        
+          src="/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_660x0_resize_q75_box.jpg"
+          srcset="/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_330x0_resize_q75_box.jpg 330w,/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_660x0_resize_q75_box.jpg 660w
+          
+            ,/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_1024x0_resize_q75_box.jpg 1024w
+          
+          
+            ,/docs/homepage-layout/home-profile-list_huf797f5adbd488711c27909ebe8ed8db6_105595_1320x0_resize_q75_box.jpg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+</figure>
+</p>
+<p>このセクションにリストされる記事は、 <code>mainSections</code> 設定から派生したもので、あなたのウェブサイトで使用しているコンテンツタイプに対応します。例えば、 <em>posts</em> と <em>projects</em> のコンテンツセクションがある場合、この設定を <code>[&quot;posts&quot;, &quot;projects&quot;]</code> に設定することで、これら2つのセクションにあるすべての記事が最近の記事リストに出力されます。Congoはこの設定が配列であることを想定しているので、すべてのコンテンツに1つのセクションしか使用しない場合は、この設定を適宜変更してください: <code>[&quot;blog&quot;]</code></p>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+
+      
+
+      
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/ja/docs/configuration/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >基本設定</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/ja/docs/front-matter/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >フロントマター</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            © 2023 Congo contributors
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
