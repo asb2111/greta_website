@@ -1,8 +1,7 @@
 ---
-title: "About Me"
-description: "Get to know me!"
 layout: simple
 ---
+## Greta Breskin, MS, RD, LDN, CSP (she/her)
 Hello! My name is Greta Breskin and I am a Registered Dietitian and a Board-Certified Specialist in Pediatric Nutrition. 
 
 I completed my master’s degree in nutrition education and dietetic internship at Columbia University in New York City in 2013. Shortly after moving to North Carolina in 2015, I joined the clinical nutrition team at UNC Children’s Hospital in Chapel Hill, where I cared for newborns through young adults with a variety of common and rare medical conditions. I spent four of my seven years at UNC in the outpatient Children’s Specialty Clinics specializing in the nutrition care of children with feeding difficulties and gastrointestinal diseases. I have expert knowledge of and experience with dietary therapies for pediatric Crohn’s disease.

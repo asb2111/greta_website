@@ -1,6 +1,5 @@
 ---
-title: "Get in Touch"
-description: Get in Touch
+layout: simple
 ---
 <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
   <div class="container mx-auto">

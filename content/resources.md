@@ -1,6 +1,4 @@
 ---
-title: "Resources"
-description: "Helpful Resources"
 layout: simple
 ---
 ## Instagram accounts:
