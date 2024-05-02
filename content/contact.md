@@ -44,11 +44,40 @@ description: Get in Touch
             </div>
             <div class="w-full md:w-1/2">
               <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
               <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
                 Please provide your phone number.
               </div>
             </div>
+          </div>
+          <div class="mb-6">
+            <label for="prefer" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">How do you prefer to be contacted?</label>
+            <select name="prefer" id="prefer" class="w-full px-3 py-2" required>
+              <option value="">--Please choose an option--</option>
+              <option>Email</option>
+              <option>Phone</option>
+            </select>
+              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                Please choose an option.
+              </div>
+          </div>
+          <div class="mb-6">
+            <label for="how" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Interested in</label>
+            <select name="how" id="how" class="w-full px-3 py-2" required>
+              <option value="">--Please choose an option--</option>
+              <option>Nutrition Counseling</option>
+              <option>Sleep Consulting</option>
+              <option>Speaking</option>
+              <option>Press</option>
+              <option>General Inquiry</option>
+            </select>
+              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                Please choose an option.
+              </div>
+          </div>
+          <div class="mb-6">
+            <label for="how_hear" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">How did you hear about me? (optional)</label>
+            <input type="text" name="how_hear" id="how_hear" placeholder="" class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
           </div>
           <div class="mb-6">
             <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
@@ -141,19 +170,10 @@ description: Get in Touch
 })();
 </script>
 
-<style>
-.invalid-feedback,
-.empty-feedback {
-  display: none;
-}
-.was-validated :placeholder-shown:invalid ~ .empty-feedback {
-  display: block;
-}
-.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
-  display: block;
-}
-.is-invalid,
-.was-validated :invalid {
-  border-color: #dc3545;
-}
-</style>
+**Email**: greta.breskin.msrd@gmail.com
+
+**Call/text**: 919-809-5452
+
+{{< button href="https://app.simplymeet.me/gretabreskin">}}
+Book a discovery call
+{{< /button >}}
