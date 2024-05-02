@@ -44,7 +44,7 @@ description: Get in Touch
             </div>
             <div class="w-full md:w-1/2">
               <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
               <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
                 Please provide your phone number.
               </div>
