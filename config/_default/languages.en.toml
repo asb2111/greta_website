@@ -16,7 +16,6 @@ title = "Greta Breskin"
   name = "Greta Breskin"
   image = "img/author.jpg"
   headline = "Registered Dietitian and Sleep Consultant"
-  bio = "Hi!"
   links = [
   #   { email = "mailto:greta.breskin.msrd@gmail.com"},
   #   { link = "https://link-to-some-website.com/" },

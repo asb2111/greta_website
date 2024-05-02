@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Greta Breskin</title>
+    <link>http://localhost:3543/about/</link>
+    <description>Recent content in Abouts on Greta Breskin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:3543/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:3543/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3543/about/about/</guid>
+      <description>Hello! My name is Greta Breskin and I am a Registered Dietitian and a Board-Certified Specialist in Pediatric Nutrition.</description>
+    </item>
+  </channel>
+</rss>

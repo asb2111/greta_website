@@ -4,21 +4,26 @@
   name = "About me"
   pageRef = "about"
   weight = 10
-
+  
 [[main]]
-  name = "Services"
-  pageRef = "services"
-  weight = 20
+  name = "Nutrition Counseling"
+  pageRef = "nutrition"
+  weight = 30
+  
+[[main]]
+  name = "Sleep Coaching"
+  pageRef = "sleep"
+  weight = 40
 
 [[main]]
   name = "Resources"
   pageRef = "resources"
-  weight = 30
+  weight = 50
   
 [[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 40
+  weight = 60
 
 # [[footer]]
 #   name = "Privacy"
