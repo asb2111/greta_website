@@ -61,8 +61,8 @@ layout: simple
               </div>
           </div>
           <div class="mb-6">
-            <label for="how" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Interested in</label>
-            <select name="how" id="how" class="w-full px-3 py-2" required>
+            <label for="what" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Interested in</label>
+            <select name="what" id="what" class="w-full px-3 py-2" required>
               <option value="">--Please choose an option--</option>
               <option>Nutrition Counseling</option>
               <option>Sleep Consulting</option>

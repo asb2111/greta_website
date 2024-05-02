@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greta Breskin MS RD LDN CSP on Home</title>
-    <link>http://localhost:4009/</link>
+    <link>https://gretabreskin.com/</link>
     <description>Recent content in Greta Breskin MS RD LDN CSP on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:4009/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gretabreskin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:4009/about/</link>
+      <link>https://gretabreskin.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4009/about/</guid>
+      <guid>https://gretabreskin.com/about/</guid>
       <description>Greta Breskin, MS, RD, LDN, CSP (she/her) #Hello!</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:4009/contact/</link>
+      <link>https://gretabreskin.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4009/contact/</guid>
+      <guid>https://gretabreskin.com/contact/</guid>
       <description>Fill up the form below to send me a message.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:4009/nutrition/</link>
+      <link>https://gretabreskin.com/nutrition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4009/nutrition/</guid>
+      <guid>https://gretabreskin.com/nutrition/</guid>
       <description>Coming soon!</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:4009/resources/</link>
+      <link>https://gretabreskin.com/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4009/resources/</guid>
+      <guid>https://gretabreskin.com/resources/</guid>
       <description>Instagram accounts: #https://www.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:4009/sleep/</link>
+      <link>https://gretabreskin.com/sleep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4009/sleep/</guid>
+      <guid>https://gretabreskin.com/sleep/</guid>
       <description>Coming soon!</description>
     </item>
   </channel>
