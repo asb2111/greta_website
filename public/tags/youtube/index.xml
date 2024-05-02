@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Youtube on Greta Breskin</title>
-    <link>https://gretabreskin.com/tags/youtube/</link>
-    <description>Recent content in Youtube on Greta Breskin</description>
+    <title>Youtube on Home</title>
+    <link>http://localhost:5482/tags/youtube/</link>
+    <description>Recent content in Youtube on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gretabreskin.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5482/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich Content</title>
-      <link>https://gretabreskin.com/samples/rich-content/</link>
+      <link>http://localhost:5482/samples/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://gretabreskin.com/samples/rich-content/</guid>
+      <guid>http://localhost:5482/samples/rich-content/</guid>
       <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
     </item>
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Netlify on Greta Breskin</title>
-    <link>https://gretabreskin.com/tags/netlify/</link>
-    <description>Recent content in Netlify on Greta Breskin</description>
+    <title>Netlify on Home</title>
+    <link>http://localhost:5482/tags/netlify/</link>
+    <description>Recent content in Netlify on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gretabreskin.com/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5482/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosting &amp; Deployment</title>
-      <link>https://gretabreskin.com/docs/hosting-deployment/</link>
+      <link>http://localhost:5482/docs/hosting-deployment/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://gretabreskin.com/docs/hosting-deployment/</guid>
+      <guid>http://localhost:5482/docs/hosting-deployment/</guid>
       <description>Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.</description>
     </item>
   </channel>
