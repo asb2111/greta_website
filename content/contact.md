@@ -6,9 +6,6 @@ description: Get in Touch
   <div class="container mx-auto">
     <div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
       <div class="text-center">
-        <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
-          Get in Touch
-        </h1>
         <p class="text-gray-400 dark:text-gray-400">
           Fill up the form below to send me a message.
         </p>
