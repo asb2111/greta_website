@@ -56,3 +56,11 @@ button{
   line-height: 1.5rem;
   --tw-shadow: 0 0 #0000;
 }
+
+div#sectionleft {
+    float: left;
+    margin-right: 20px;
+}
+div#sectionright {
+    margin: auto;
+}

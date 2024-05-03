@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="false"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3778&amp;path=livereload" data-no-instant defer></script>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6304&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -42,14 +42,28 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.640fe0fed719c99d5633e9cf9aa6582dc3cf1ecbf8988da8eaca46b73eaf516f.css"
-    integrity="sha256-ZA/g/tcZyZ1WM&#43;nPmqZYLcPPHsv4mI2o6spGtz6vUW8="
+    href="/css/main.bundle.min.0c9ddd92383d3b72d5c7d614e68afb31ba34fbcf94569307badb0aa42acb80a1.css"
+    integrity="sha256-DJ3dkjg9O3LVx9YU5or7Mbo0&#43;8&#43;UVpMHutsKpCrLgKE="
   />
   
   
   
   
+    
+    
   
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.d4b727caf411cb5c3b421d0d427ed1e3daeafe0d04840327efad4978430edb8c.js"
+      integrity="sha256-1LcnyvQRy1w7Qh0NQn7R49rq/g0EhAMn761JeEMO24w="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
   
   
   <meta
@@ -61,7 +75,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:3778/docs/hosting-deployment/" />
+  <link rel="canonical" href="http://localhost:6304/docs/hosting-deployment/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -76,7 +90,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:3778/docs/hosting-deployment/">
+  <meta property="og:url" content="http://localhost:6304/docs/hosting-deployment/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Hosting &amp; Deployment">
   <meta property="og:description" content="Learn how to deploy a Congo site.">
@@ -106,7 +120,7 @@
     "description": "Learn how to deploy a Congo site.",
     "abstract": "Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:3778\/docs\/hosting-deployment\/",
+    "url" : "http:\/\/localhost:6304\/docs\/hosting-deployment\/",
     "author" : {
       "@type": "Person",
       "name": "Greta Breskin"
@@ -158,7 +172,7 @@
       <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
   <nav class="flex items-start justify-between sm:items-center">
     
-    <div class="flex flex-row items-center">
+    <div class="z-40 flex flex-row items-center">
       
   <a
     class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
@@ -169,12 +183,124 @@
 
     </div>
     
-    
-      <ul class="flex list-none flex-col text-end sm:flex-row">
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
+        <input type="checkbox" id="menu-controller" class="hidden" />
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
+        >
+          <ul
+            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+          >
+            <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span></span
+              >
+            </li>
+            
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/about/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >About Me</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/nutrition/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Nutrition Counseling</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/sleep/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Sleep Coaching</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/resources/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Resources</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/contact/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Contact</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+              
+            
+          </ul>
+        </div>
+      </label>
+      
+      <ul class="hidden list-none flex-row text-end sm:flex">
         
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/about/"
@@ -182,7 +308,7 @@
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >About me</span
+                      >About Me</span
                     >
                   </a
                 >
@@ -190,7 +316,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/nutrition/"
@@ -206,7 +332,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/sleep/"
@@ -222,7 +348,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/resources/"
@@ -238,7 +364,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/contact/"
@@ -254,6 +380,7 @@
             </li>
           
           
+
         
       </ul>
     
@@ -672,17 +799,6 @@
     </footer>
   </article>
 
-        
-          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
-            <a
-              href="#the-top"
-              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-              aria-label="Scroll to top"
-              title="Scroll to top"
-            >
-              &uarr;
-            </a>
-          </div>
         
       </main><footer class="py-10 print:hidden">
   

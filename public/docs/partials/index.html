@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="false"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3778&amp;path=livereload" data-no-instant defer></script>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6304&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -42,14 +42,28 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.640fe0fed719c99d5633e9cf9aa6582dc3cf1ecbf8988da8eaca46b73eaf516f.css"
-    integrity="sha256-ZA/g/tcZyZ1WM&#43;nPmqZYLcPPHsv4mI2o6spGtz6vUW8="
+    href="/css/main.bundle.min.0c9ddd92383d3b72d5c7d614e68afb31ba34fbcf94569307badb0aa42acb80a1.css"
+    integrity="sha256-DJ3dkjg9O3LVx9YU5or7Mbo0&#43;8&#43;UVpMHutsKpCrLgKE="
   />
   
   
   
   
+    
+    
   
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.d4b727caf411cb5c3b421d0d427ed1e3daeafe0d04840327efad4978430edb8c.js"
+      integrity="sha256-1LcnyvQRy1w7Qh0NQn7R49rq/g0EhAMn761JeEMO24w="
+      data-copy="Copy"
+      data-copied="Copied"
+    ></script>
   
   
   <meta
@@ -61,7 +75,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:3778/docs/partials/" />
+  <link rel="canonical" href="http://localhost:6304/docs/partials/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -76,7 +90,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:3778/docs/partials/">
+  <meta property="og:url" content="http://localhost:6304/docs/partials/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Partials">
   <meta property="og:description" content="All the partials available in Congo.">
@@ -106,7 +120,7 @@
     "description": "All the partials available in Congo.",
     "abstract": "Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:3778\/docs\/partials\/",
+    "url" : "http:\/\/localhost:6304\/docs\/partials\/",
     "author" : {
       "@type": "Person",
       "name": "Greta Breskin"
@@ -158,7 +172,7 @@
       <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
   <nav class="flex items-start justify-between sm:items-center">
     
-    <div class="flex flex-row items-center">
+    <div class="z-40 flex flex-row items-center">
       
   <a
     class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
@@ -169,12 +183,124 @@
 
     </div>
     
-    
-      <ul class="flex list-none flex-col text-end sm:flex-row">
+      
+      <label id="menu-button" for="menu-controller" class="block sm:hidden">
+        <input type="checkbox" id="menu-controller" class="hidden" />
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="invisible fixed inset-0 z-30 m-auto h-full w-full cursor-default overflow-auto bg-neutral-100/50 opacity-0 backdrop-blur-sm transition-opacity dark:bg-neutral-900/50"
+        >
+          <ul
+            class="mx-auto flex w-full max-w-7xl list-none flex-col overflow-visible px-6 py-6 text-end sm:px-14 sm:py-10 sm:pt-10 md:px-24 lg:px-32"
+          >
+            <li class="mb-1">
+              <span class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400"
+                ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span></span
+              >
+            </li>
+            
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/about/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >About Me</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/nutrition/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Nutrition Counseling</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/sleep/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Sleep Coaching</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/resources/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Resources</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+                
+                <li class="group mb-1">
+                  
+                    <a
+                      href="/contact/"
+                      title=""
+                      onclick="close_menu()"
+                      
+                      ><span
+                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                          >Contact</span
+                        >
+                      </a
+                    >
+                  
+                </li>
+              
+              
+            
+          </ul>
+        </div>
+      </label>
+      
+      <ul class="hidden list-none flex-row text-end sm:flex">
         
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/about/"
@@ -182,7 +308,7 @@
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >About me</span
+                      >About Me</span
                     >
                   </a
                 >
@@ -190,7 +316,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/nutrition/"
@@ -206,7 +332,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/sleep/"
@@ -222,7 +348,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/resources/"
@@ -238,7 +364,7 @@
             </li>
           
             
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
                   href="/contact/"
@@ -254,6 +380,7 @@
             </li>
           
           
+
         
       </ul>
     
@@ -373,7 +500,7 @@
 </span></span></code></pre></div><h3 id="custom-analytics-providers" class="relative group">Custom analytics providers <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#custom-analytics-providers" aria-label="Anchor">#</a></span></h3><p>If you wish to use a different analytics provider on your website you can also override the analytics partial and provide your own script. Simply create the file <code>layouts/partials/analytics.html</code> in your project and it will automatically include it in the <code>&lt;head&gt;</code> of the website.</p>
 <h2 id="comments" class="relative group">Comments <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#comments" aria-label="Anchor">#</a></span></h2><p>To add comments to your articles, Congo includes support for a comments partial that is included at the base of each article page. Simply provide a <code>layouts/partials/comments.html</code> which contains the code required to display your chosen comments.</p>
 <p>You can use either the built-in Hugo Disqus template, or provide your own custom code. Refer to the <a href="https://gohugo.io/content-management/comments/" target="_blank" rel="noreferrer">Hugo docs</a> for further information.</p>
-<p>Once the partial has been provided, finer control over where comments are displayed is then managed using the <code>showComments</code> parameter. This value can be set at the theme level in the <code>params.toml</code> <a href="http://localhost:3778/docs/configuration/#theme-parameters">config file</a>, or on a per-article basis by including it in the <a href="http://localhost:3778/docs/front-matter/">front matter</a>. The parameter defaults to <code>false</code> so it must be set to <code>true</code> in one of these locations in order for comments to be displayed.</p>
+<p>Once the partial has been provided, finer control over where comments are displayed is then managed using the <code>showComments</code> parameter. This value can be set at the theme level in the <code>params.toml</code> <a href="http://localhost:6304/docs/configuration/#theme-parameters">config file</a>, or on a per-article basis by including it in the <a href="http://localhost:6304/docs/front-matter/">front matter</a>. The parameter defaults to <code>false</code> so it must be set to <code>true</code> in one of these locations in order for comments to be displayed.</p>
 <h2 id="favicons" class="relative group">Favicons <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#favicons" aria-label="Anchor">#</a></span></h2><p>Congo provides a default set of blank favicons to get started but you can provide your own assets to override them. The easiest way to obtain new favicon assets is to generate them using a third-party provider like <a href="https://favicon.io" target="_blank" rel="noreferrer">favicon.io</a>.</p>
 <p>Icon assets should be placed directly in the <code>static/</code> folder of your website and named as per the listing below. If you use <a href="https://favicon.io" target="_blank" rel="noreferrer">favicon.io</a>, these will be the filenames that are automatically generated for you, but you can provide your own assets if you wish.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">static/
@@ -385,14 +512,14 @@
 </span></span><span class="line"><span class="cl">├─ favicon.ico
 </span></span><span class="line"><span class="cl">└─ site.webmanifest
 </span></span></code></pre></div><p>Alternatively, you can also completely override the default favicon behaviour and provide your own favicon HTML tags and assets. Simply provide a <code>layouts/partials/favicons.html</code> file in your project and this will be injected into the site <code>&lt;head&gt;</code> in place of the default assets.</p>
-<h2 id="icon" class="relative group">Icon <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#icon" aria-label="Anchor">#</a></span></h2><p>Similar to the <a href="http://localhost:3778/docs/shortcodes/#icon">icon shortcode</a>, you can include icons in your own templates and partials by using Congo&rsquo;s <code>icon.html</code> partial. The partial takes one parameter which is the name of the icon to be included.</p>
+<h2 id="icon" class="relative group">Icon <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#icon" aria-label="Anchor">#</a></span></h2><p>Similar to the <a href="http://localhost:6304/docs/shortcodes/#icon">icon shortcode</a>, you can include icons in your own templates and partials by using Congo&rsquo;s <code>icon.html</code> partial. The partial takes one parameter which is the name of the icon to be included.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">  <span class="p">{{</span> <span class="nx">partial</span> <span class="s">&#34;icon.html&#34;</span> <span class="s">&#34;github&#34;</span> <span class="p">}}</span>
-</span></span></code></pre></div><p>Icons are populated using Hugo pipelines which makes them very flexible. Congo includes a number of built-in icons for social, links and other purposes. Check the <a href="http://localhost:3778/samples/icons/">icon samples</a> page for a full list of supported icons.</p>
+</span></span></code></pre></div><p>Icons are populated using Hugo pipelines which makes them very flexible. Congo includes a number of built-in icons for social, links and other purposes. Check the <a href="http://localhost:6304/samples/icons/">icon samples</a> page for a full list of supported icons.</p>
 <p>Custom icons can be added by providing your own icon assets in the <code>assets/icons/</code> directory of your project. The icon can then be referenced in the partial by using the SVG filename without the <code>.svg</code> extension.</p>
-<p>Icons can also be used in article content by calling the <a href="http://localhost:3778/docs/shortcodes/#icon">icon shortcode</a>.</p>
+<p>Icons can also be used in article content by calling the <a href="http://localhost:6304/docs/shortcodes/#icon">icon shortcode</a>.</p>
 <h2 id="extensions" class="relative group">Extensions <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#extensions" aria-label="Anchor">#</a></span></h2><p>Congo also provides for a number of extension partials that allow for expanding upon base functionality.</p>
-<h3 id="article-link" class="relative group">Article link <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#article-link" aria-label="Anchor">#</a></span></h3><p>If you wish to insert additional code after article links, create a <code>layouts/partials/extend-article-link.html</code> file. This is especially powerful when combined with the <a href="http://localhost:3778/docs/shortcodes/#badge"><code>badge</code></a> shortcode which can be used to highlight metadata for certain articles.</p>
+<h3 id="article-link" class="relative group">Article link <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#article-link" aria-label="Anchor">#</a></span></h3><p>If you wish to insert additional code after article links, create a <code>layouts/partials/extend-article-link.html</code> file. This is especially powerful when combined with the <a href="http://localhost:6304/docs/shortcodes/#badge"><code>badge</code></a> shortcode which can be used to highlight metadata for certain articles.</p>
 <h3 id="head-and-footer" class="relative group">Head and Footer <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#head-and-footer" aria-label="Anchor">#</a></span></h3><p>The theme allows for inserting additional code directly into the <code>&lt;head&gt;</code> and <code>&lt;footer&gt;</code> sections of the template. These can be useful for providing scripts or other logic that isn&rsquo;t part of the theme.</p>
 <p>Simply create either <code>layouts/partials/extend-head.html</code> or <code>layouts/partials/extend-footer.html</code> and these will automatically be included in your website build. Both partials are injected as the last items in <code>&lt;head&gt;</code> and <code>&lt;footer&gt;</code> so they can be used to override theme defaults.</p>
 
@@ -409,17 +536,6 @@
     </footer>
   </article>
 
-        
-          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
-            <a
-              href="#the-top"
-              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-              aria-label="Scroll to top"
-              title="Scroll to top"
-            >
-              &uarr;
-            </a>
-          </div>
         
       </main><footer class="py-10 print:hidden">
   

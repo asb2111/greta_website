@@ -1,5 +1,25 @@
 ---
+title: "Contact"
+description: "Contact"
 layout: simple
+keywords:
+- nutrition
+- counseling
+- counselor
+- dietitian
+- nutritionist
+- sleep
+- coaching
+- coach
+- consultant
+- consulting
+- child
+- children
+- pediatric
+- chapel hill
+- raleigh
+- durham
+- north carolina
 ---
 <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
   <div class="container mx-auto">
@@ -174,5 +194,5 @@ layout: simple
 **Call/text**: 919-809-5452
 
 {{< button href="https://app.simplymeet.me/gretabreskin">}}
-Book a discovery call
+Book a Discovery Call
 {{< /button >}}
