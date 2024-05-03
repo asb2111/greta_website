@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Installation on Home</title>
-    <link>http://localhost:7468/tags/installation/</link>
+    <link>https://gretabreskin.com/tags/installation/</link>
     <description>Recent content in Installation on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:7468/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gretabreskin.com/tags/installation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>http://localhost:7468/docs/installation/</link>
+      <link>https://gretabreskin.com/docs/installation/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7468/docs/installation/</guid>
+      <guid>https://gretabreskin.com/docs/installation/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
     <item>
       <title>Getting Started</title>
-      <link>http://localhost:7468/docs/getting-started/</link>
+      <link>https://gretabreskin.com/docs/getting-started/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7468/docs/getting-started/</guid>
+      <guid>https://gretabreskin.com/docs/getting-started/</guid>
       <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
     </item>
   </channel>
