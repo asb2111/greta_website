@@ -27,7 +27,7 @@ Hello! My name is Greta Breskin and I am a Registered Dietitian and a Board-Cert
 </div>
 <div id="sectionleft"><img src='about_photo.jpeg' alt='Greta Breskin, MS, RD, LDN, CSP'></div>
 
-I spent four of my seven years at UNC in the outpatient Children’s Specialty Clinics specializing in the nutrition care of children with feeding difficulties and gastrointestinal diseases. I have expert knowledge of and experience with dietary therapies for pediatric Crohn’s disease.
+Four of my seven years at UNC were spent in the outpatient Children’s Specialty Clinics specializing in the nutrition care of children with feeding difficulties and gastrointestinal diseases. I have expert knowledge of and experience with dietary therapies for pediatric Crohn’s disease.
 
 My professional passion for counseling families was strengthened by my lived experience parenting twins. In 2022 I left my role at the UNC Hospital system to work in private practice pediatric nutrition counseling. If you are struggling with feeding your child, you are not alone, and I can help!
 
