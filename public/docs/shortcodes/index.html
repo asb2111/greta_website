@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="false"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5610&amp;path=livereload" data-no-instant defer></script>
+><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -75,7 +75,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:5610/docs/shortcodes/" />
+  <link rel="canonical" href="https://gretabreskin.com/docs/shortcodes/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -90,7 +90,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:5610/docs/shortcodes/">
+  <meta property="og:url" content="https://gretabreskin.com/docs/shortcodes/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Shortcodes">
   <meta property="og:description" content="All the shortcodes available in Congo.">
@@ -119,7 +119,7 @@
     "description": "All the shortcodes available in Congo.",
     "abstract": "Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:5610\/docs\/shortcodes\/",
+    "url" : "https:\/\/gretabreskin.com\/docs\/shortcodes\/",
     "author" : {
       "@type": "Person",
       "name": "Greta Breskin"
@@ -319,6 +319,14 @@
 
   
   
+  
+  
+  
+  
+  
+
+
+
 
   
   
@@ -672,10 +680,10 @@ Call to action
 </span></span></code></pre></div><!-- prettier-ignore-start -->
 <div class="chart">
   
-  <canvas id="293714856"></canvas>
+  <canvas id="238615479"></canvas>
   <script type="text/javascript">
     window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("293714856");
+      const ctx = document.getElementById("238615479");
       const chart = new Chart(ctx, {
         
 type: 'bar',
@@ -693,7 +701,7 @@ data: {
 </div>
 
 <!-- prettier-ignore-end -->
-<p>You can see some additional Chart.js examples on the <a href="http://localhost:5610/samples/charts/">charts samples</a> page.</p>
+<p>You can see some additional Chart.js examples on the <a href="https://gretabreskin.com/samples/charts/">charts samples</a> page.</p>
 <h2 id="figure" class="relative group">Figure <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#figure" aria-label="Anchor">#</a></span></h2><p>Congo includes a <code>figure</code> shortcode for adding images to content. The shortcode replaces the base Hugo functionality in order to provide additional performance benefits.</p>
 <p>When a provided image is a page resource, it will be optimised using Hugo Pipes and scaled in order to provide images appropriate to different device resolutions. If a static asset or URL to an external image is provided, it will be included as-is without any image processing by Hugo.</p>
 <p>The <code>figure</code> shortcode accepts six parameters:</p>
@@ -828,9 +836,9 @@ data: {
   </span>
 
 </p>
-<p>Icons are populated using Hugo pipelines which makes them very flexible. Congo includes a number of built-in icons for social, links and other purposes. Check the <a href="http://localhost:5610/samples/icons/">icon samples</a> page for a full list of supported icons.</p>
+<p>Icons are populated using Hugo pipelines which makes them very flexible. Congo includes a number of built-in icons for social, links and other purposes. Check the <a href="https://gretabreskin.com/samples/icons/">icon samples</a> page for a full list of supported icons.</p>
 <p>Custom icons can be added by providing your own icon assets in the <code>assets/icons/</code> directory of your project. The icon can then be referenced in the shortcode by using the SVG filename without the <code>.svg</code> extension.</p>
-<p>Icons can also be used in partials by calling the <a href="http://localhost:5610/docs/partials/#icon">icon partial</a>.</p>
+<p>Icons can also be used in partials by calling the <a href="https://gretabreskin.com/docs/partials/#icon">icon partial</a>.</p>
 <h2 id="katex" class="relative group">Katex <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#katex" aria-label="Anchor">#</a></span></h2><p>The <code>katex</code> shortcode can be used to add mathematical expressions to article content using the KaTeX package. Refer to the online reference of <a href="https://katex.org/docs/supported.html" target="_blank" rel="noreferrer">supported TeX functions</a> for the available syntax.</p>
 <p>To include mathematical expressions in an article, simply place the shortcode anywhere with the content. It only needs to be included once per article and KaTeX will automatically render any markup on that page. Both inline and block notation are supported.</p>
 <p>Inline notation can be generated by wrapping the expression in <code>\\(</code> and <code>\\)</code> delimiters. Alternatively, block notation can be generated using <code>$$</code> delimiters.</p>
@@ -840,7 +848,7 @@ data: {
 </span></span></code></pre></div><p>
 
 \(f(a,b,c) = (a^2+b^2+c^2)^3\)</p>
-<p>Check out the <a href="http://localhost:5610/samples/mathematical-notation/">mathematical notation samples</a> page for more examples.</p>
+<p>Check out the <a href="https://gretabreskin.com/samples/mathematical-notation/">mathematical notation samples</a> page for more examples.</p>
 <h2 id="lead" class="relative group">Lead <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#lead" aria-label="Anchor">#</a></span></h2><p><code>lead</code> is used to bring emphasis to the start of an article. It can be used to style an introduction, or to call out an important piece of information. Simply wrap any Markdown content in the <code>lead</code> shortcode.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">lead</span> <span class="p">&gt;</span>}}
@@ -867,7 +875,7 @@ B-->C[Profit]
 
 </div>
 
-<p>You can see some additional Mermaid examples on the <a href="http://localhost:5610/samples/diagrams-flowcharts/">diagrams and flowcharts samples</a> page.</p>
+<p>You can see some additional Mermaid examples on the <a href="https://gretabreskin.com/samples/diagrams-flowcharts/">diagrams and flowcharts samples</a> page.</p>
 
       </div>
     </section>

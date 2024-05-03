@@ -75,6 +75,7 @@ keywords:
               <option value="">--Please choose an option--</option>
               <option>Email</option>
               <option>Phone</option>
+              <option>Text</option>
             </select>
               <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
                 Please choose an option.

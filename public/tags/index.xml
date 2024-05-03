@@ -2,304 +2,290 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Home</title>
-    <link>http://localhost:5610/tags/</link>
+    <link>https://gretabreskin.com/tags/</link>
     <description>Recent content in Tags on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5610/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gretabreskin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docs</title>
-      <link>http://localhost:5610/tags/docs/</link>
+      <link>https://gretabreskin.com/tags/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/docs/</guid>
+      <guid>https://gretabreskin.com/tags/docs/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>http://localhost:5610/tags/new/</link>
+      <link>https://gretabreskin.com/tags/new/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/new/</guid>
+      <guid>https://gretabreskin.com/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Installation</title>
-      <link>http://localhost:5610/tags/installation/</link>
+      <link>https://gretabreskin.com/tags/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/installation/</guid>
+      <guid>https://gretabreskin.com/tags/installation/</guid>
       <description></description>
     </item>
     <item>
       <title>Config</title>
-      <link>http://localhost:5610/tags/config/</link>
+      <link>https://gretabreskin.com/tags/config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/config/</guid>
+      <guid>https://gretabreskin.com/tags/config/</guid>
       <description></description>
     </item>
     <item>
       <title>Icons</title>
-      <link>http://localhost:5610/tags/icons/</link>
+      <link>https://gretabreskin.com/tags/icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/icons/</guid>
+      <guid>https://gretabreskin.com/tags/icons/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample</title>
-      <link>http://localhost:5610/tags/sample/</link>
+      <link>https://gretabreskin.com/tags/sample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/sample/</guid>
+      <guid>https://gretabreskin.com/tags/sample/</guid>
       <description></description>
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>http://localhost:5610/tags/shortcodes/</link>
+      <link>https://gretabreskin.com/tags/shortcodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/shortcodes/</guid>
+      <guid>https://gretabreskin.com/tags/shortcodes/</guid>
       <description></description>
     </item>
     <item>
       <title>Users</title>
-      <link>http://localhost:5610/tags/users/</link>
+      <link>https://gretabreskin.com/tags/users/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/users/</guid>
+      <guid>https://gretabreskin.com/tags/users/</guid>
       <description></description>
     </item>
     <item>
       <title>Homepage</title>
-      <link>http://localhost:5610/tags/homepage/</link>
+      <link>https://gretabreskin.com/tags/homepage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/homepage/</guid>
+      <guid>https://gretabreskin.com/tags/homepage/</guid>
       <description></description>
     </item>
     <item>
       <title>Layouts</title>
-      <link>http://localhost:5610/tags/layouts/</link>
+      <link>https://gretabreskin.com/tags/layouts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/layouts/</guid>
+      <guid>https://gretabreskin.com/tags/layouts/</guid>
       <description></description>
     </item>
     <item>
       <title>Front Matter</title>
-      <link>http://localhost:5610/tags/front-matter/</link>
+      <link>https://gretabreskin.com/tags/front-matter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/front-matter/</guid>
+      <guid>https://gretabreskin.com/tags/front-matter/</guid>
       <description></description>
     </item>
     <item>
       <title>Icon</title>
-      <link>http://localhost:5610/tags/icon/</link>
+      <link>https://gretabreskin.com/tags/icon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/icon/</guid>
+      <guid>https://gretabreskin.com/tags/icon/</guid>
       <description></description>
     </item>
     <item>
       <title>Lead</title>
-      <link>http://localhost:5610/tags/lead/</link>
+      <link>https://gretabreskin.com/tags/lead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/lead/</guid>
+      <guid>https://gretabreskin.com/tags/lead/</guid>
       <description></description>
     </item>
     <item>
       <title>Mermaid</title>
-      <link>http://localhost:5610/tags/mermaid/</link>
+      <link>https://gretabreskin.com/tags/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/mermaid/</guid>
+      <guid>https://gretabreskin.com/tags/mermaid/</guid>
       <description></description>
     </item>
     <item>
       <title>Analytics</title>
-      <link>http://localhost:5610/tags/analytics/</link>
+      <link>https://gretabreskin.com/tags/analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/analytics/</guid>
+      <guid>https://gretabreskin.com/tags/analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Comments</title>
-      <link>http://localhost:5610/tags/comments/</link>
+      <link>https://gretabreskin.com/tags/comments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/comments/</guid>
+      <guid>https://gretabreskin.com/tags/comments/</guid>
       <description></description>
     </item>
     <item>
       <title>Favicons</title>
-      <link>http://localhost:5610/tags/favicons/</link>
+      <link>https://gretabreskin.com/tags/favicons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/favicons/</guid>
+      <guid>https://gretabreskin.com/tags/favicons/</guid>
       <description></description>
     </item>
     <item>
       <title>Partials</title>
-      <link>http://localhost:5610/tags/partials/</link>
+      <link>https://gretabreskin.com/tags/partials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/partials/</guid>
+      <guid>https://gretabreskin.com/tags/partials/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:5610/tags/privacy/</link>
+      <link>https://gretabreskin.com/tags/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/privacy/</guid>
+      <guid>https://gretabreskin.com/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Content</title>
-      <link>http://localhost:5610/tags/content/</link>
+      <link>https://gretabreskin.com/tags/content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/content/</guid>
+      <guid>https://gretabreskin.com/tags/content/</guid>
       <description></description>
     </item>
     <item>
       <title>Example</title>
-      <link>http://localhost:5610/tags/example/</link>
+      <link>https://gretabreskin.com/tags/example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/example/</guid>
+      <guid>https://gretabreskin.com/tags/example/</guid>
       <description></description>
     </item>
     <item>
       <title>advanced</title>
-      <link>http://localhost:5610/tags/advanced/</link>
+      <link>https://gretabreskin.com/tags/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/advanced/</guid>
+      <guid>https://gretabreskin.com/tags/advanced/</guid>
       <description>This is the advanced tag.</description>
     </item>
     <item>
       <title>Css</title>
-      <link>http://localhost:5610/tags/css/</link>
+      <link>https://gretabreskin.com/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/css/</guid>
+      <guid>https://gretabreskin.com/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>http://localhost:5610/tags/deployment/</link>
+      <link>https://gretabreskin.com/tags/deployment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/deployment/</guid>
+      <guid>https://gretabreskin.com/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:5610/tags/github/</link>
+      <link>https://gretabreskin.com/tags/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/github/</guid>
+      <guid>https://gretabreskin.com/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hosting</title>
-      <link>http://localhost:5610/tags/hosting/</link>
+      <link>https://gretabreskin.com/tags/hosting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/hosting/</guid>
+      <guid>https://gretabreskin.com/tags/hosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Netlify</title>
-      <link>http://localhost:5610/tags/netlify/</link>
+      <link>https://gretabreskin.com/tags/netlify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/netlify/</guid>
+      <guid>https://gretabreskin.com/tags/netlify/</guid>
       <description></description>
     </item>
     <item>
       <title>Render</title>
-      <link>http://localhost:5610/tags/render/</link>
+      <link>https://gretabreskin.com/tags/render/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/render/</guid>
+      <guid>https://gretabreskin.com/tags/render/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>http://localhost:5610/tags/html/</link>
+      <link>https://gretabreskin.com/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/html/</guid>
+      <guid>https://gretabreskin.com/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://localhost:5610/tags/markdown/</link>
+      <link>https://gretabreskin.com/tags/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/markdown/</guid>
+      <guid>https://gretabreskin.com/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Gist</title>
-      <link>http://localhost:5610/tags/gist/</link>
+      <link>https://gretabreskin.com/tags/gist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/gist/</guid>
+      <guid>https://gretabreskin.com/tags/gist/</guid>
       <description></description>
     </item>
     <item>
       <title>Twitter</title>
-      <link>http://localhost:5610/tags/twitter/</link>
+      <link>https://gretabreskin.com/tags/twitter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/twitter/</guid>
+      <guid>https://gretabreskin.com/tags/twitter/</guid>
       <description></description>
     </item>
     <item>
       <title>Vimeo</title>
-      <link>http://localhost:5610/tags/vimeo/</link>
+      <link>https://gretabreskin.com/tags/vimeo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/vimeo/</guid>
+      <guid>https://gretabreskin.com/tags/vimeo/</guid>
       <description></description>
     </item>
     <item>
       <title>Youtube</title>
-      <link>http://localhost:5610/tags/youtube/</link>
+      <link>https://gretabreskin.com/tags/youtube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/youtube/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Latin</title>
-      <link>http://localhost:5610/tags/latin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/latin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Text</title>
-      <link>http://localhost:5610/tags/text/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/text/</guid>
+      <guid>https://gretabreskin.com/tags/youtube/</guid>
       <description></description>
     </item>
     <item>
       <title>Katex</title>
-      <link>http://localhost:5610/tags/katex/</link>
+      <link>https://gretabreskin.com/tags/katex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/katex/</guid>
+      <guid>https://gretabreskin.com/tags/katex/</guid>
       <description></description>
     </item>
     <item>
       <title>Maths</title>
-      <link>http://localhost:5610/tags/maths/</link>
+      <link>https://gretabreskin.com/tags/maths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/maths/</guid>
+      <guid>https://gretabreskin.com/tags/maths/</guid>
       <description></description>
     </item>
     <item>
       <title>Chart</title>
-      <link>http://localhost:5610/tags/chart/</link>
+      <link>https://gretabreskin.com/tags/chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/chart/</guid>
+      <guid>https://gretabreskin.com/tags/chart/</guid>
       <description></description>
     </item>
     <item>
       <title>Diagram</title>
-      <link>http://localhost:5610/tags/diagram/</link>
+      <link>https://gretabreskin.com/tags/diagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/diagram/</guid>
+      <guid>https://gretabreskin.com/tags/diagram/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph</title>
-      <link>http://localhost:5610/tags/graph/</link>
+      <link>https://gretabreskin.com/tags/graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/graph/</guid>
+      <guid>https://gretabreskin.com/tags/graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji</title>
-      <link>http://localhost:5610/tags/emoji/</link>
+      <link>https://gretabreskin.com/tags/emoji/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5610/tags/emoji/</guid>
+      <guid>https://gretabreskin.com/tags/emoji/</guid>
       <description></description>
     </item>
   </channel>
