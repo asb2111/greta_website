@@ -5,7 +5,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "slate"
+colorScheme = "sapphire"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -18,6 +18,7 @@ enableImageWebp = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"
+enableRobotsTXT = true
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
@@ -27,7 +28,7 @@ fingerprintAlgorithm = "sha256"
 
 [footer]
   showCopyright = true
-  showThemeAttribution = false
+  showThemeAttribution = true
   showAppearanceSwitcher = false
   showScrollToTop = false
 
