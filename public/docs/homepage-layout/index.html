@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="false"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4986&amp;path=livereload" data-no-instant defer></script>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5610&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -75,7 +75,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:4986/docs/homepage-layout/" />
+  <link rel="canonical" href="http://localhost:5610/docs/homepage-layout/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -90,7 +90,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:4986/docs/homepage-layout/">
+  <meta property="og:url" content="http://localhost:5610/docs/homepage-layout/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Homepage Layout">
   <meta property="og:description" content="Configuring the homepage layout in the Congo theme.">
@@ -117,7 +117,7 @@
     "description": "Configuring the homepage layout in the Congo theme.",
     "abstract": "Congo provides a fully flexible homepage layout with built-in templates and the ability to provide your own.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:4986\/docs\/homepage-layout\/",
+    "url" : "http:\/\/localhost:5610\/docs\/homepage-layout\/",
     "author" : {
       "@type": "Person",
       "name": "Greta Breskin"
@@ -533,14 +533,14 @@
 
 </figure>
 </p>
-<p>The author information is provided in the languages configuration file. Refer to the <a href="http://localhost:4986/docs/getting-started/">Getting Started</a> and <a href="http://localhost:4986/docs/configuration/##language-and-i18n">Language Configuration</a> sections for parameter details.</p>
+<p>The author information is provided in the languages configuration file. Refer to the <a href="http://localhost:5610/docs/getting-started/">Getting Started</a> and <a href="http://localhost:5610/docs/configuration/##language-and-i18n">Language Configuration</a> sections for parameter details.</p>
 <p>Additionally, any Markdown content that is provided in the homepage content will be placed below the author profile. This allows extra flexibility for displaying a bio or other custom content using shortcodes.</p>
 <p>To enable the profile layout, set <code>homepage.layout = &quot;profile&quot;</code> in the <code>params.toml</code> configuration file.</p>
 <h2 id="custom-layout" class="relative group">Custom layout <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#custom-layout" aria-label="Anchor">#</a></span></h2><p>If the built-in homepage layouts aren&rsquo;t sufficient for your needs, you have the option to provide your own custom layout. This allows you to have total control over the page content and essentially gives you a blank slate to work with.</p>
 <p>To enable the custom layout, set <code>homepage.layout = &quot;custom&quot;</code> in the <code>params.toml</code> configuration file.</p>
 <p>With the configuration value set, create a new <code>custom.html</code> file and place it in <code>layouts/partials/home/custom.html</code>. Now whatever is in the <code>custom.html</code> file will be placed in the content area of the site homepage. You may use whatever HTML, Tailwind, or Hugo templating functions you wish to define your layout.</p>
 <p>To include <a href="#recent-articles">recent articles</a> on the custom layout, use the <code>recent-articles.html</code> partial.</p>
-<p>As an example, the <a href="http://localhost:4986/">homepage</a> on this site uses the custom layout to allow toggling between the profile and page layouts. Visit the <a href="https://github.com/jpanther/congo/blob/dev/exampleSite/layouts/partials/home/custom.html" target="_blank" rel="noreferrer">GitHub repo</a> to see how it works.</p>
+<p>As an example, the <a href="http://localhost:5610/">homepage</a> on this site uses the custom layout to allow toggling between the profile and page layouts. Visit the <a href="https://github.com/jpanther/congo/blob/dev/exampleSite/layouts/partials/home/custom.html" target="_blank" rel="noreferrer">GitHub repo</a> to see how it works.</p>
 <h2 id="recent-articles" class="relative group">Recent articles <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#recent-articles" aria-label="Anchor">#</a></span></h2><p>All homepage layouts have the option of displaying recent articles below the main page content. To enable this, simply set the <code>homepage.showRecent</code> setting to <code>true</code> in the <code>params.toml</code> configuration file.</p>
 <p>
 
