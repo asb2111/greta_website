@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Partials on Greta Breskin</title>
-    <link>http://localhost:5013/tags/partials/</link>
+    <link>https://gretabreskin.com/tags/partials/</link>
     <description>Recent content in Partials on Greta Breskin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5013/tags/partials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gretabreskin.com/tags/partials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Partials</title>
-      <link>http://localhost:5013/docs/partials/</link>
+      <link>https://gretabreskin.com/docs/partials/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5013/docs/partials/</guid>
+      <guid>https://gretabreskin.com/docs/partials/</guid>
       <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
     </item>
   </channel>

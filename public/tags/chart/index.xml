@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chart on Greta Breskin</title>
-    <link>http://localhost:5013/tags/chart/</link>
+    <link>https://gretabreskin.com/tags/chart/</link>
     <description>Recent content in Chart on Greta Breskin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5013/tags/chart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gretabreskin.com/tags/chart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Charts</title>
-      <link>http://localhost:5013/samples/charts/</link>
+      <link>https://gretabreskin.com/samples/charts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5013/samples/charts/</guid>
+      <guid>https://gretabreskin.com/samples/charts/</guid>
       <description>Congo includes Chart.js for powerful charts and data visualisations.</description>
     </item>
   </channel>

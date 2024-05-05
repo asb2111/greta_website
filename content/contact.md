@@ -114,8 +114,6 @@ document
 
 </script>
 
-**Email**: greta.breskin.msrd@gmail.com
-
 **Call/text**: 919-809-5452
 
 {{< button href="https://app.simplymeet.me/gretabreskin">}}

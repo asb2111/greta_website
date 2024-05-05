@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Icon on Greta Breskin</title>
-    <link>http://localhost:5013/tags/icon/</link>
+    <link>https://gretabreskin.com/tags/icon/</link>
     <description>Recent content in Icon on Greta Breskin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5013/tags/icon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gretabreskin.com/tags/icon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shortcodes</title>
-      <link>http://localhost:5013/docs/shortcodes/</link>
+      <link>https://gretabreskin.com/docs/shortcodes/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5013/docs/shortcodes/</guid>
+      <guid>https://gretabreskin.com/docs/shortcodes/</guid>
       <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
     </item>
     <item>
       <title>Partials</title>
-      <link>http://localhost:5013/docs/partials/</link>
+      <link>https://gretabreskin.com/docs/partials/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5013/docs/partials/</guid>
+      <guid>https://gretabreskin.com/docs/partials/</guid>
       <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
     </item>
   </channel>
