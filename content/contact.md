@@ -149,7 +149,7 @@ keywords:
           });
           const json = JSON.stringify(object);
           result.innerHTML = "Please wait...";
-          fetch("https://api.web3forms.com/submit", {
+          fetch("https://api.netlify.com/submit", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
