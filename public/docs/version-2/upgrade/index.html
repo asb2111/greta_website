@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="false"
-><head>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3097&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -75,7 +75,7 @@
   
   
   
-  <link rel="canonical" href="https://gretabreskin.com/docs/version-2/upgrade/" />
+  <link rel="canonical" href="http://localhost:3097/docs/version-2/upgrade/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -90,7 +90,7 @@
   
   
   
-  <meta property="og:url" content="https://gretabreskin.com/docs/version-2/upgrade/">
+  <meta property="og:url" content="http://localhost:3097/docs/version-2/upgrade/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Upgrading from Congo 1.x">
   <meta property="og:description" content="Discover what&#39;s new in Congo version 2.0.">
@@ -116,7 +116,7 @@
     "description": "Discover what\u0027s new in Congo version 2.0.",
     "abstract": "Although Congo 2.",
     "inLanguage": "en",
-    "url" : "https:\/\/gretabreskin.com\/docs\/version-2\/upgrade\/",
+    "url" : "http:\/\/localhost:3097\/docs\/version-2\/upgrade\/",
     "author" : {
       "@type": "Person",
       "name": "Greta Breskin"
@@ -148,14 +148,6 @@
 
   
   
-  
-  
-  
-  
-  
-
-
-
 
   
   
@@ -608,16 +600,16 @@
 </tr>
 </tbody>
 </table>
-<p>For the full list of supported parameters, refer to the <a href="https://gretabreskin.com/docs/configuration/">Configuration</a> docs.</p>
+<p>For the full list of supported parameters, refer to the <a href="http://localhost:3097/docs/configuration/">Configuration</a> docs.</p>
 <h2 id="step-4-move-assets" class="relative group">Step 4: Move assets <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#step-4-move-assets" aria-label="Anchor">#</a></span></h2><p>All site assets, with the exception of favicons, now use Hugo Pipes to build an optimised version of your project. In order for the theme to locate your files, any previously static theme assets need to be moved to the Hugo assets folder. Primarily this is the author image and site logo:</p>
 <p><code>static/me.jpg</code> <strong>→</strong> <code>assets/me.jpg</code><br>
 <code>static/logo.jpg</code> <strong>→</strong> <code>assets/logo.jpg</code></p>
 <p>If you have provided an author image or site logo, simply move these assets from <code>static/</code> to <code>assets/</code>. If you use the same directory structure the theme will know where to find these files automatically. If you would like to provide a new path, update the <code>logo</code> and <code>author.image</code> config values accordingly.</p>
 <p>Note that this step does not apply to any assets in your project that are actually static. For example, a PDF file that you link directly to from within an article is a static asset. These files should remain in the <code>static/</code> directory to ensure they are copied to the output folder when Hugo builds the site.</p>
 <h2 id="step-5-check-content" class="relative group">Step 5: Check content <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#step-5-check-content" aria-label="Anchor">#</a></span></h2><p>The behavior of the <code>figure</code> shortcode is different in version 2. If you are using <code>figure</code> in your content and have advanced use cases, you may need to adjust the parameters you are providing.</p>
-<p>Consult the <a href="https://gretabreskin.com/docs/shortcodes/#figure">shortcode docs</a> to learn more about supported parameters.</p>
+<p>Consult the <a href="http://localhost:3097/docs/shortcodes/#figure">shortcode docs</a> to learn more about supported parameters.</p>
 <h2 id="step-6-rebuild" class="relative group">Step 6: Rebuild <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#step-6-rebuild" aria-label="Anchor">#</a></span></h2><p>Now that all the configuration changes are complete, it&rsquo;s time to rebuild the site. Run <code>hugo</code>, or your build command, and check that everything works as expected.</p>
-<p>If you come across any errors, check the configuration is correct and refer to the <a href="https://gretabreskin.com/docs/">full documentation</a> for further guidance. Remember, the example config files bundled with the theme contain all the default parameters and are a great starting point.</p>
+<p>If you come across any errors, check the configuration is correct and refer to the <a href="http://localhost:3097/docs/">full documentation</a> for further guidance. Remember, the example config files bundled with the theme contain all the default parameters and are a great starting point.</p>
 <p>🙋‍♀️ If you still need help, feel free to ask your question on <a href="https://github.com/jpanther/congo/discussions" target="_blank" rel="noreferrer">GitHub Discussions</a>.</p>
 
       </div>

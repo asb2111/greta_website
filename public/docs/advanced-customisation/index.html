@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="false"
-><head>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3097&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -75,7 +75,7 @@
   
   
   
-  <link rel="canonical" href="https://gretabreskin.com/docs/advanced-customisation/" />
+  <link rel="canonical" href="http://localhost:3097/docs/advanced-customisation/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -90,7 +90,7 @@
   
   
   
-  <meta property="og:url" content="https://gretabreskin.com/docs/advanced-customisation/">
+  <meta property="og:url" content="http://localhost:3097/docs/advanced-customisation/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Advanced Customisation">
   <meta property="og:description" content="Learn how to build Congo manually.">
@@ -117,7 +117,7 @@
     "description": "Learn how to build Congo manually.",
     "abstract": "Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.",
     "inLanguage": "en",
-    "url" : "https:\/\/gretabreskin.com\/docs\/advanced-customisation\/",
+    "url" : "http:\/\/localhost:3097\/docs\/advanced-customisation\/",
     "author" : {
       "@type": "Person",
       "name": "Greta Breskin"
@@ -149,14 +149,6 @@
 
   
   
-  
-  
-  
-  
-  
-
-
-
 
   
   
@@ -424,7 +416,7 @@
 <p>The correct way to adjust any theme behaviour is by overriding files using Hugo&rsquo;s powerful <a href="https://gohugo.io/templates/lookup-order/" target="_blank" rel="noreferrer">file lookup order</a>. In summary, the lookup order ensures any files you include in your project directory will automatically take precedence over any theme files.</p>
 <p>For example, if you wanted to override the main article template in Congo, you can simply create your own <code>layouts/_default/single.html</code> file and place it in the root of your project. This file will then override the <code>single.html</code> from the theme without ever changing the theme itself. This works for any theme files - HTML templates, partials, shortcodes, config files, data, assets, etc.</p>
 <p>As long as you follow this simple practice, you will always be able to update the theme (or test different theme versions) without worrying that you will lose any of your custom changes.</p>
-<h2 id="colour-schemes" class="relative group">Colour schemes <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#colour-schemes" aria-label="Anchor">#</a></span></h2><p>Congo ships with a number of colour schemes out of the box. To change the basic colour scheme, you can set the <code>colorScheme</code> theme parameter. Refer to the <a href="https://gretabreskin.com/docs/getting-started/#colour-schemes">Getting Started</a> section to learn more about the built-in schemes.</p>
+<h2 id="colour-schemes" class="relative group">Colour schemes <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#colour-schemes" aria-label="Anchor">#</a></span></h2><p>Congo ships with a number of colour schemes out of the box. To change the basic colour scheme, you can set the <code>colorScheme</code> theme parameter. Refer to the <a href="http://localhost:3097/docs/getting-started/#colour-schemes">Getting Started</a> section to learn more about the built-in schemes.</p>
 <p>In addition to the default schemes, you can also create your own and re-style the entire website to your liking. Schemes are created by by placing a <code>&lt;scheme-name&gt;.css</code> file in the <code>assets/css/schemes/</code> folder. Once the file is created, simply refer to it by name in the theme configuration.</p>
 <p>Congo defines a three-colour palette that is used throughout the theme. The three colours are defined as <code>neutral</code>, <code>primary</code> and <code>secondary</code> variants, each containing ten shades of colour.</p>
 <p>Due to the way Tailwind CSS 3.0 calculates colour values with opacity, the colours specified in the scheme need to <a href="https://github.com/adamwathan/tailwind-css-variable-text-opacity-demo" target="_blank" rel="noreferrer">conform to a particular format</a> by providing the red, green and blue colour values.</p>
@@ -465,7 +457,7 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// and more...
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">};</span>
-</span></span></code></pre></div><p>This default configuration has been included with these content paths so that you can easily generate your own CSS file without needing to modify it, provided you follow a particular project structure. Namely, <strong>you have to include Congo in your project as a subdirectory at <code>themes/congo/</code></strong>. This means you cannot easily use Hugo Modules to install the theme and you must go down either the git submodule (recommended) or manual install routes. The <a href="https://gretabreskin.com/docs/installation/">Installation docs</a> explain how to install the theme using either of these methods.</p>
+</span></span></code></pre></div><p>This default configuration has been included with these content paths so that you can easily generate your own CSS file without needing to modify it, provided you follow a particular project structure. Namely, <strong>you have to include Congo in your project as a subdirectory at <code>themes/congo/</code></strong>. This means you cannot easily use Hugo Modules to install the theme and you must go down either the git submodule (recommended) or manual install routes. The <a href="http://localhost:3097/docs/installation/">Installation docs</a> explain how to install the theme using either of these methods.</p>
 <h3 id="project-structure" class="relative group">Project structure <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#project-structure" aria-label="Anchor">#</a></span></h3><p>In order to take advantage of the default configuration, your project should look something like this&hellip;</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">.
 </span></span><span class="line"><span class="cl">├── assets

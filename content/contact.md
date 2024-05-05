@@ -36,7 +36,7 @@ keywords:
           <div class="flex mb-6 space-x-4">
             <div class="w-full md:w-1/2">
               <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label>
-              <input type="text" name="name" id="first_name" placeholder="John" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" oninvalid="this.setCustomValidity('Please enter your first name.')" onkeyup="setCustomValidity('')"/>
+              <input type="text" name="first_name" id="fname" placeholder="John" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" oninvalid="this.setCustomValidity('Please enter your first name.')" onkeyup="setCustomValidity('')"/>
             </div>
             <div class="w-full md:w-1/2">
               <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label>

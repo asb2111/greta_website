@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chart on Home</title>
-    <link>https://gretabreskin.com/tags/chart/</link>
+    <link>http://localhost:3097/tags/chart/</link>
     <description>Recent content in Chart on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gretabreskin.com/tags/chart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3097/tags/chart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Charts</title>
-      <link>https://gretabreskin.com/samples/charts/</link>
+      <link>http://localhost:3097/samples/charts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://gretabreskin.com/samples/charts/</guid>
+      <guid>http://localhost:3097/samples/charts/</guid>
       <description>Congo includes Chart.js for powerful charts and data visualisations.</description>
     </item>
   </channel>
