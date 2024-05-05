@@ -31,7 +31,7 @@ keywords:
       </div>
       <div class="m-7">
         <form netlify validate name="contact" method="POST onSubmit={handleSubmit}">
-          <input type="hidden" name="form" value="contact">
+          <input type="hidden" name="contact" value="contact">
           <input type="checkbox" name="botcheck" id="" style="display: none;" />
           <div class="flex mb-6 space-x-4">
             <div class="w-full md:w-1/2">
