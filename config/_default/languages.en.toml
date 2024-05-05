@@ -3,7 +3,7 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Home"
+title = "Greta Breskin"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
@@ -15,7 +15,7 @@ title = "Home"
 [params.author]
   name = "Greta Breskin"
   image = "img/author.jpg"
-  headline = "Registered Dietitian and Sleep Consultant"
+  headline = "Registered Dietitian-Nutritionist and Sleep Consultant"
   links = [
   #   { email = "mailto:greta.breskin.msrd@gmail.com"},
   #   { link = "https://link-to-some-website.com/" },

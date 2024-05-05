@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Home</title>
-    <link>http://localhost:3097/categories/</link>
-    <description>Recent content in Categories on Home</description>
+    <title>Categories on Greta Breskin</title>
+    <link>http://localhost:5013/categories/</link>
+    <description>Recent content in Categories on Greta Breskin</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:3097/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5013/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,20 +1,21 @@
 ---
 title: "Sleep Coaching"
-description: "Sleep Coaching"
+description: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
 layout: simple
 keywords:
-- sleep
-- coaching
-- coach
-- consultant
-- consulting
-- child
-- children
-- pediatric
-- chapel hill
-- raleigh
-- durham
-- north carolina
+- "nutrition"
+- "counseling"
+- "dietitian"
+- "nutritionist"
+- "sleep"
+- "coach"
+- "consultant"
+- "child"
+- "pediatric"
+- "chapel hill"
+- "raleigh"
+- "durham"
+- "north carolina"
 ---
 As a pediatric registered dietitian-nutritionist with over 10 years of experience, I’ve always advocated for quality sleep for the families I work with. Then in 2019 when my twins were born, I came to know first-hand just how challenging it can be to get a good night’s rest. 
 

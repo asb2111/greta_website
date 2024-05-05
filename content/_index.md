@@ -1,24 +1,22 @@
 ---
-title: "Greta Breskin MS RD LDN CSP"
-description: "Registered Dietitian and Sleep Consultant"
+title: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
+description: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
 keywords:
-- nutrition
-- counseling
-- counselor
-- dietitian
-- nutritionist
-- sleep
-- coaching
-- coach
-- consultant
-- consulting
-- child
-- children
-- pediatric
-- chapel hill
-- raleigh
-- durham
-- north carolina
+- "nutrition"
+- "counseling"
+- "dietitian"
+- "nutritionist"
+- "sleep"
+- "coach"
+- "consultant"
+- "child"
+- "pediatric"
+- "chapel hill"
+- "raleigh"
+- "durham"
+- "north carolina"
+feature: "author"
+featureAlt: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
 ---
 {{< lead >}}
 Connecting families with the foundations for a lifetime of healthy eating and sleep.

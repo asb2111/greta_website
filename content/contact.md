@@ -1,25 +1,21 @@
 ---
 title: "Contact"
-description: "Contact"
+description: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
 layout: simple
 keywords:
-- nutrition
-- counseling
-- counselor
-- dietitian
-- nutritionist
-- sleep
-- coaching
-- coach
-- consultant
-- consulting
-- child
-- children
-- pediatric
-- chapel hill
-- raleigh
-- durham
-- north carolina
+- "nutrition"
+- "counseling"
+- "dietitian"
+- "nutritionist"
+- "sleep"
+- "coach"
+- "consultant"
+- "child"
+- "pediatric"
+- "chapel hill"
+- "raleigh"
+- "durham"
+- "north carolina"
 ---
 <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
   <div class="container mx-auto">
@@ -108,7 +104,7 @@ const handleSubmit = (event) => {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => alert("Thank you for your submission"))
+    .then(() => alert("Thank you for your submission, I will be in touch."))
     .catch((error) => alert(error));
 };
 

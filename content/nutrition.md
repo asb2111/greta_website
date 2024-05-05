@@ -1,20 +1,21 @@
 ---
 title: "Nutrition Counseling"
-description: "Nutrition Counseling"
+description: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
 layout: simple
 keywords:
-- nutrition
-- counseling
-- counselor
-- dietitian
-- nutritionist
-- child
-- children
-- pediatric
-- chapel hill
-- raleigh
-- durham
-- north carolina
+- "nutrition"
+- "counseling"
+- "dietitian"
+- "nutritionist"
+- "sleep"
+- "coach"
+- "consultant"
+- "child"
+- "pediatric"
+- "chapel hill"
+- "raleigh"
+- "durham"
+- "north carolina"
 ---
 I provide nutrition counseling (also known as medical nutrition therapy) for families of babies, kids, and teens ages 0-20 years. I am in-network with BCBS (including NC State Health Plan), Aetna, Cigna, and United Healthcare. I also accept private pay.
 

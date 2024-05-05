@@ -1,21 +1,21 @@
 ---
 title: "Resources"
-description: "Nutrition and Sleep Resources"
+description: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
 layout: simple
 keywords:
-- nutrition
-- counseling
-- counselor
-- dietitian
-- nutritionist
-- sleep
-- coaching
-- coach
-- consultant
-- consulting
-- child
-- children
-- pediatric
+- "nutrition"
+- "counseling"
+- "dietitian"
+- "nutritionist"
+- "sleep"
+- "coach"
+- "consultant"
+- "child"
+- "pediatric"
+- "chapel hill"
+- "raleigh"
+- "durham"
+- "north carolina"
 ---
 ## Instagram accounts:
 [No Filter Feeding (Greta's Account)](https://www.instagram.com/no.filter.feeding/)
