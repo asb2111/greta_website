@@ -1,6 +1,6 @@
 ---
 title: "Sleep Coaching"
-description: "Raleigh Durham Chapel Hill North Carolina Sleep Consultant Pediatric Dietitian Nutritionist"
+description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant serving Raleigh, Durham, Chapel Hill, and other areas of the North Carolina Research Triangle region"
 layout: simple
 keywords:
 - "nutrition"
