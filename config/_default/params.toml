@@ -16,7 +16,7 @@ enableCodeCopy = false
 enableImageLazyLoading = true
 enableImageWebp = true
 
-# robots = ""
+robots = "all"
 fingerprintAlgorithm = "sha256"
 enableRobotsTXT = true
 
