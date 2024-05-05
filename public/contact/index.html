@@ -125,7 +125,7 @@
     "keywords": ["nutrition","counseling","counselor","dietitian","nutritionist","sleep","coaching","coach","consultant","consulting","child","children","pediatric","chapel hill","raleigh","durham","north carolina"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "103"
+    "wordCount": "69"
   }
   </script>
 
@@ -407,43 +407,27 @@
         </p>
       </div>
       <div class="m-7">
-        <form netlify id="form" class="needs-validation" novalidate>
-          <input type="hidden" name="access_key" value="ca6ed92b-92cc-4b10-a421-401a38ea6904" />
-          <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+        <form netlify validate name="contact" method="POST onSubmit={handleSubmit}">
+          <input type="hidden" name="form" value="contact">
           <input type="checkbox" name="botcheck" id="" style="display: none;" />
           <div class="flex mb-6 space-x-4">
             <div class="w-full md:w-1/2">
               <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label>
-              <input type="text" name="name" id="first_name" placeholder="John" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                Please provide your first name.
-              </div>
+              <input type="text" name="name" id="first_name" placeholder="John" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" oninvalid="this.setCustomValidity('Please enter your first name.')" onkeyup="setCustomValidity('')"/>
             </div>
             <div class="w-full md:w-1/2">
               <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label>
-              <input type="text" name="last_name" id="lname" placeholder="Doe" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                Please provide your last name.
-              </div>
+              <input type="text" name="last_name" id="lname" placeholder="Doe" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" oninvalid="this.setCustomValidity('Please enter your last name.')" onkeyup="setCustomValidity('')"/>
             </div>
           </div>
           <div class="flex mb-6 space-x-4">
             <div class="w-full md:w-1/2">
               <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-              <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-              <div class="empty-feedback text-red-400 text-sm mt-1">
-                Please provide your email address.
-              </div>
-              <div class="invalid-feedback text-red-400 text-sm mt-1">
-                Please provide a valid email address.
-              </div>
+              <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" oninvalid="this.setCustomValidity('Please enter a valid email address.')" onkeyup="setCustomValidity('')"/>
             </div>
             <div class="w-full md:w-1/2">
               <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                Please provide your phone number.
-              </div>
+              <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" oninvalid="this.setCustomValidity('Please enter your phone number.')" onkeyup="setCustomValidity('')"/>
             </div>
           </div>
           <div class="mb-6">
@@ -454,9 +438,6 @@
               <option>Phone</option>
               <option>Text</option>
             </select>
-              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                Please choose an option.
-              </div>
           </div>
           <div class="mb-6">
             <label for="what" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Interested in</label>
@@ -468,9 +449,6 @@
               <option>Press</option>
               <option>General Inquiry</option>
             </select>
-              <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                Please choose an option.
-              </div>
           </div>
           <div class="mb-6">
             <label for="how_hear" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">How did you hear about me? (optional)</label>
@@ -478,7 +456,7 @@
           </div>
           <div class="mb-6">
             <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
-            <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" required></textarea>
+            <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" required oninvalid="this.setCustomValidity('Please enter your message.')" onkeyup="setCustomValidity('')"></textarea>
             <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
               Please enter your message.
             </div>
@@ -495,75 +473,25 @@
   </div>
 </div>
 <script>
-(function () {
-  "use strict";
-  /*
-   * Form Validation
-   */
-  // Fetch all the forms we want to apply custom validation styles to
-  const forms = document.querySelectorAll(".needs-validation");
-  const result = document.getElementById("result");
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms).forEach(function (form) {
-    form.addEventListener(
-      "submit",
-      function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-          form.querySelectorAll(":invalid")[0].focus();
-        } else {
-          /*
-           * Form Submission using fetch()
-           */
-          const formData = new FormData(form);
-          event.preventDefault();
-          event.stopPropagation();
-          const object = {};
-          formData.forEach((value, key) => {
-            object[key] = value;
-          });
-          const json = JSON.stringify(object);
-          result.innerHTML = "Please wait...";
-          fetch("https://api.netlify.com/submit", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              Accept: "application/json"
-            },
-            body: json
-          })
-            .then(async (response) => {
-              let json = await response.json();
-              if (response.status == 200) {
-                result.innerHTML = json.message;
-                result.classList.remove("text-gray-500");
-                result.classList.add("text-green-500");
-              } else {
-                console.log(response);
-                result.innerHTML = json.message;
-                result.classList.remove("text-gray-500");
-                result.classList.add("text-red-500");
-              }
-            })
-            .catch((error) => {
-              console.log(error);
-              result.innerHTML = "Something went wrong!";
-            })
-            .then(function () {
-              form.reset();
-              form.classList.remove("was-validated");
-              setTimeout(() => {
-                result.style.display = "none";
-              }, 5000);
-            });
-        }
-        form.classList.add("was-validated");
-      },
-      false
-    );
-  });
-})();
+const handleSubmit = (event) => {
+  event.preventDefault();
+
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+  
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => alert("Thank you for your submission"))
+    .catch((error) => alert(error));
+};
+
+document
+  .querySelector("form")
+  .addEventListener("submit", handleSubmit);
+
 </script>
 <p><strong>Email</strong>: <a href="mailto:greta.breskin.msrd@gmail.com">greta.breskin.msrd@gmail.com</a></p>
 <p><strong>Call/text</strong>: 919-809-5452</p>
