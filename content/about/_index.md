@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant serving Raleigh, Durham, Chapel Hill, and other areas of the North Carolina Research Triangle region"
+description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 layout: simple
 keywords:
 - "nutrition"
@@ -21,7 +21,7 @@ keywords:
 Hello! My name is Greta Breskin and I am a Registered Dietitian and a Board-Certified Specialist in Pediatric Nutrition. 
 <div id="sectionright"><sp>I completed my master’s degree in nutrition education and dietetic internship at Columbia University in New York City in 2013. Shortly after moving to North Carolina in 2015, I joined the clinical nutrition team at UNC Children’s Hospital in Chapel Hill, where I cared for newborns through young adults with a variety of common and rare medical conditions. 
 </div>
-<div id="sectionleft"><img src='about_photo.jpeg' alt='Greta Breskin is a registered dietitian-nutritionist and sleep consultant serving Raleigh, Durham, Chapel Hill, and other areas of the North Carolina Research Triangle region'></div>
+<div id="sectionleft"><img src='about_photo.jpeg' alt='Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle'></div>
 
 Four of my seven years at UNC were spent in the outpatient Children’s Specialty Clinics specializing in the nutrition care of children with feeding difficulties and gastrointestinal diseases. I have expert knowledge of and experience with dietary therapies for pediatric Crohn’s disease.
 

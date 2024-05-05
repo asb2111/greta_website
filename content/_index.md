@@ -1,6 +1,6 @@
 ---
-title: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant serving Raleigh, Durham, Chapel Hill, and other areas of the North Carolina Research Triangle region"
-description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant serving Raleigh, Durham, Chapel Hill, and other areas of the North Carolina Research Triangle region"
+title: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
+description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 keywords:
 - "nutrition"
 - "counseling"
@@ -16,7 +16,7 @@ keywords:
 - "durham"
 - "north carolina"
 feature: "author"
-featureAlt: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant serving Raleigh, Durham, Chapel Hill, and other areas of the North Carolina Research Triangle region"
+featureAlt: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 ---
 {{< lead >}}
 Connecting families with the foundations for a lifetime of healthy eating and sleep.
