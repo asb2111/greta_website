@@ -30,7 +30,7 @@ keywords:
         </p>
       </div>
       <div class="m-7">
-        <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
+        <form netlify id="form" class="needs-validation" novalidate>
           <input type="hidden" name="access_key" value="ca6ed92b-92cc-4b10-a421-401a38ea6904" />
           <input type="hidden" name="subject" value="New Submission from Web3Forms" />
           <input type="checkbox" name="botcheck" id="" style="display: none;" />
