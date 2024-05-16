@@ -19,5 +19,5 @@ feature: "author"
 featureAlt: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 ---
 {{< lead >}}
-Connecting families with the foundations for a lifetime of healthy eating and sleep.
+Connecting families with the foundations for a lifetime of healthy eating and sleep
 {{< /lead >}}
