@@ -10,14 +10,14 @@ title = "Greta Breskin"
   dateFormat = "2 January 2006"
 
   # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  description = "Greta Breskin is a registered dietitian nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 
 [params.author]
   name = "Greta Breskin"
   image = "img/author.jpg"
-  headline = "Registered Dietitian-Nutritionist and Sleep Consultant"
+  headline = "Registered Dietitian Nutritionist and Sleep Consultant"
   links = [
-  #   { email = "mailto:greta.breskin.msrd@gmail.com"},
+     { email = "mailto:greta.breskin.msrd@gmail.com"},
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -34,11 +34,11 @@ title = "Greta Breskin"
   #   { google = "https://www.google.com/" },
   #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
   #   { hashnode = "https://username.hashnode.dev" },
-  #   { instagram = "https://instagram.com/username" },
+     { instagram = "https://www.instagram.com/no.filter.feeding/" },
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+     { linkedin = "https://www.linkedin.com/in/greta-breskin-ms-rd-ldn-csp-76539a43/" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { mendeley = "https://www.mendeley.com/" },

@@ -1,6 +1,6 @@
 ---
 title: "Sleep Coaching"
-description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
+description: "Greta Breskin is a registered dietitian nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 layout: simple
 keywords:
 - "nutrition"
@@ -23,6 +23,6 @@ I completed the intensive Sleep Coach Training program with Little Dipper Wellne
 
 Please reach out today set up a complimentary 15-minute discovery call to learn how I can help you and your child/children get a better night’s rest. I look forward to connecting with you!
 
-{{< button href="https://app.simplymeet.me/gretabreskin/15min-sleep">}}
+{{< button href="https://app.simplymeet.me/gretabreskin/15min-sleep" target="_blank">}}
 Book a Discovery Call - Sleep
 {{< /button >}}

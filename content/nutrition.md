@@ -1,6 +1,6 @@
 ---
 title: "Nutrition Counseling"
-description: "Greta Breskin is a registered dietitian-nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
+description: "Greta Breskin is a registered dietitian nutritionist and sleep consultant in North Carolina serving Raleigh, Durham, Chapel Hill, and the rest of the Triangle"
 layout: simple
 keywords:
 - "nutrition"
@@ -31,6 +31,6 @@ I can support you with nutrition counseling related to your child’s:
 
 I strive to provide inclusive, non-judgmental, and evidenced-based care to all my patients and families. Please reach out today to set up a complimentary 15-minute discovery call. I look forward to connecting with you!
 
-{{< button href="https://app.simplymeet.me/gretabreskin/15min-nutrition">}}
+{{< button href="https://app.simplymeet.me/gretabreskin/15min-nutrition" target="_blank">}}
 Book a Discovery Call - Nutrition
 {{< /button >}}
